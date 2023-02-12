@@ -1,0 +1,255 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@700&family=Roboto:ital,wght@0,400;0,700;1,100&family=Rubik+Bubbles&family=Rubik:wght@500&family=Ubuntu&family=Varela+Round&display=swap');
+
+
+
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    display: flex;
+   justify-content: center;
+   
+}
+.container
+{
+    width: 60vw;
+    height: 100vh;
+    padding: 5px;
+    /* background-color: brown; */
+}
+
+.box
+{
+    background-color: white;
+    /* border: 1px solid black; */
+    padding: 3px;
+}
+.imgcontainer
+{
+display: grid;
+width: 100%;
+height: 100%;
+grid-template-columns: repeat(3,1fr);
+grid-template-rows: 100px repeat(3,1fr);
+gap:15px;
+}
+
+#box1
+{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    font-size: 3rem;
+    letter-spacing: 3px;
+}
+
+#box2
+{
+    background-image: url('image1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    align-items: flex-end;
+    border-radius: 10px;
+    filter: grayscale(100%);
+    transition: all 0.5s ease-in;
+    color: white;
+
+}
+
+#box3
+{
+    background-image: url('image2.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    align-items: flex-end;
+    border-radius: 10px;
+    filter: grayscale(100%);
+    transition: all 0.5s ease-in;
+    color: white;
+}
+
+#box4
+{
+    background-image: url('image3.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    align-items: flex-end;
+    border-radius: 10px;
+    filter: grayscale(100%);
+    transition: all 0.5s ease-in;
+    color: white;
+}
+
+#box5
+{
+    background-image: url('image4.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    align-items: flex-end;
+    border-radius: 10px;
+    filter: grayscale(100%);
+    transition: all 0.5s ease-in;
+    color: white;
+}
+
+#box6
+{
+    background-image: url('image5.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    align-items: flex-end;
+    border-radius: 10px;
+    filter: grayscale(100%);
+    transition: all 0.5s ease-in;
+    color: white;
+}
+
+
+#box7
+{
+    background-image: url('image6.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    align-items: flex-end;
+    border-radius: 10px;
+    filter: grayscale(100%);
+    transition: all 0.5s ease-in;
+    color: white;
+}
+
+#box8
+{
+    background-image: url('image7.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    align-items: flex-end;
+    border-radius: 10px;
+    filter: grayscale(100%);
+    transition: all 0.5s ease-in;
+    color: white;
+}
+
+#box9
+{
+    background-image: url('image8.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    align-items: flex-end;
+    border-radius: 10px;
+    transition: all 0.5s ease-in;
+    filter: grayscale(100%);
+    color: white;
+}
+
+#box10
+{
+    background-image: url('image9.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    align-items: flex-end;
+    border-radius: 10px;
+    transition: all 0.5s ease-in;
+    filter: grayscale(100%);
+    color: white;
+}
+
+#box2:hover
+{
+    transform: scale(1.08);
+    box-shadow: 5px 5px 15px black, -5px -5px 15px black;
+    filter: grayscale(0);
+   
+}
+
+#box3:hover
+{
+    transform: scale(1.08);
+    box-shadow: 5px 5px 15px black, -5px -5px 15px black;
+    filter: grayscale(0);
+   
+}
+
+#box4:hover
+{
+    transform: scale(1.08);
+    box-shadow: 5px 5px 15px black, -5px -5px 15px black;
+    filter: grayscale(0);
+   
+}
+
+#box5:hover
+{
+    transform: scale(1.08);
+    box-shadow: 5px 5px 15px black, -5px -5px 15px black;
+    filter: grayscale(0);
+   
+}
+
+#box6:hover
+{
+    transform: scale(1.08);
+    box-shadow: 5px 5px 15px black, -5px -5px 15px black;
+    filter: grayscale(0);
+   
+}
+
+#box7:hover
+{
+    transform: scale(1.08);
+    box-shadow: 5px 5px 15px black, -5px -5px 15px black;
+    filter: grayscale(0);
+   
+}
+
+#box8:hover
+{
+    transform: scale(1.08);
+    box-shadow: 5px 5px 15px black, -5px -5px 15px black;
+    filter: grayscale(0);
+   
+}
+
+#box9:hover
+{
+    transform: scale(1.08);
+    box-shadow: 5px 5px 15px black, -5px -5px 15px black;
+    filter: grayscale(0);
+   
+}
+
+#box10:hover
+{
+    transform: scale(1.03);
+    box-shadow: 5px 5px 15px black, -5px -5px 15px black;
+    filter: grayscale(0);
+   
+}
